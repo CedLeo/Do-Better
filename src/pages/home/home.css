@@ -1,0 +1,70 @@
+.homeWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.homeNav{
+    width: 90%;
+    height: 10%;
+    border-radius: 30px;
+    border: 2px black solid;
+}
+
+.homeContent{
+    display: flex;
+    width: 90%;
+    height: 80%;
+    border-radius: 30px;
+    gap: 5px;
+}
+
+.homeRight {
+    width: 50%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.homeLeft {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    gap: 1%;
+}
+
+.tagline{
+    display: flex;
+    width: 100%;
+    height: 33%;
+    border: 3px rgb(241, 0, 0) solid;
+    border-radius: 30px;
+    gap: 1%;
+}
+
+.navBtns{
+    width: 100%;
+    height: 66%;
+}
+
+.clockButtons{
+    width: 100%;
+    height: 10%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    margin-top: 20px;
+}
+
+.learnMore, .aboutUs{
+    width: 30%;
+    height: 70%;
+    border: 3px rgb(241, 0, 0) solid;
+    border-radius: 30px;
+}
